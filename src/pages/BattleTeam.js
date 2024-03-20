@@ -1,12 +1,12 @@
-import dragapult1 from './images/dragapult1.png';
-import hitmonchan1 from './images/hitmonchan1.png';
-import smilotic1 from './images/smilotic1.png';
-import tinkaton1 from './images/tinkaton1.png';
-import tyranitar1 from './images/tyranitar1.png';
-import vikavolt1 from './images/vikavolt1.png';
-import './App.css';
+import dragapult1 from '../images/dragapult1.png';
+import hitmonchan1 from '../images/hitmonchan1.png';
+import smilotic1 from '../images/smilotic1.png';
+import tinkaton1 from '../images/tinkaton1.png';
+import tyranitar1 from '../images/tyranitar1.png';
+import vikavolt1 from '../images/vikavolt1.png';
+import './Teams.css';
 
-function Teams() {
+function BattleTeam() {
 return (
     <div className="App">
     <header className="App-header">
@@ -27,4 +27,4 @@ return (
 );
 }
 
-export default Teams;
+export default BattleTeam;
