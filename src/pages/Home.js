@@ -1,9 +1,9 @@
 import '../App.css';
 import React from "react";
-import '../components/TeamNavBar.css';
+import '../components/NavBar.css';
 import TeamNavBar from '../components/TeamNavBar';
 
-function Home() {
+const Home = () => {
 return (
     <div className="App">
     <header className="App-header">

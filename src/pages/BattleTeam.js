@@ -5,6 +5,7 @@ import tinkaton1 from '../images/tinkaton1.png';
 import tyranitar1 from '../images/tyranitar1.png';
 import vikavolt1 from '../images/vikavolt1.png';
 import './Teams.css';
+import React from "react";
 
 function BattleTeam() {
 return (

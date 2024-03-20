@@ -5,6 +5,7 @@ import houndoom1 from '../images/houndoom1.png';
 import roserade1 from '../images/roserade1.png';
 import rotom1 from '../images/rotom1.png';
 import './Teams.css';
+import React from "react";
 
 function HomeTeam() {
 return (
