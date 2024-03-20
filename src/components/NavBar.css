@@ -1,0 +1,12 @@
+.Nav-Container {
+    text-align: center;
+    flex-direction: row;
+    min-height: 40vmin;
+    min-width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.Nav-Images {
+    height: 20vmin;
+}
