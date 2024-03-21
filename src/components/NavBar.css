@@ -1,20 +1,21 @@
 .nav-container {
     align-items: center;
+    justify-content: center;
     display: flex;
     flex-direction: row;
-    min-height: 50vmin;
-    background-color: rgb(120, 180, 162);
 }
 
 .nav-image {
-    height: 25vmin;
-    width: 25vmin;
-    margin: 5vmin;
-    display: flex;
-    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 3px;
     object-fit: contain;
 }
 
-.nav-image > a:hover {
+.nav-image:hover {
+    color: white;
+    border-style: ridge;
     border-color: white;
 }

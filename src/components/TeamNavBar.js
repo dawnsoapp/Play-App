@@ -11,15 +11,15 @@ const TeamNavBar = () => {
         <nav className="nav-container">
             <NavLink to="/BattleTeam">
                 <img src={UltraBall1} className="nav-image" alt=""/>
-                Battle Team
+                <p className="nav-text">Battle Team</p>
             </NavLink>
             <NavLink to="/HomeTeam">
                 <img src={LoveBall1} className="nav-image" alt=""/>
-                Home Team
+                <p className="nav-text">Home Team</p>
             </NavLink>
             <NavLink to="/MysticEncounters">
                 <img src={MasterBall1} className="nav-image" alt=""/>
-                Mystic Encounters
+                <p className="nav-text">Mystic Encounters</p>
             </NavLink>
         </nav>
         </>

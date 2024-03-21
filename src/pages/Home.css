@@ -1,0 +1,12 @@
+.home-nav-box {
+    object-fit: contain;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 1000px;
+    border-style: outset;
+    border-color: rgb(0, 51, 31);
+    border-width: 10px;
+    padding: 50px;
+    background-color: rgb(120, 180, 162);
+}
