@@ -10,6 +10,8 @@
     height: 25vmin;
     width: 25vmin;
     margin: 5vmin;
+    display: flex;
+    flex-direction: column;
     object-fit: contain;
 }
 
