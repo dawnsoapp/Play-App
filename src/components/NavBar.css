@@ -1,3 +1,22 @@
+@keyframes Pokeball-spin {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .nav-image:hover {
+    animation: Pokeball-spin infinite 8s linear;
+    border-style:double;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 58%;
+    }
+}
+
 .nav-container {
     align-items: center;
     justify-content: center;
@@ -6,16 +25,15 @@
 }
 
 .nav-image {
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     margin-right: 50px;
     margin-left: 50px;
-    margin-top: 3px;
     object-fit: contain;
 }
 
-.nav-image:hover {
+.nav-text {
+    font-size: 20px;
+    text-decoration-line: none;
     color: white;
-    border-style: ridge;
-    border-color: white;
 }
