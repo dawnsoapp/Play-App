@@ -8,7 +8,7 @@ import './NavBar.css';
 const TeamNavBar = () => {
     return (
         <>
-        <nav className="nav-bar">
+        <nav className="nav-container">
             <NavLink to="/BattleTeam">
                 <img src={UltraBall1} className="nav-image" alt=""/>
                 Battle Team

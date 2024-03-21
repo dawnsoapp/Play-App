@@ -1,17 +1,18 @@
-.Nav-Container > a {
-    background-color: rgb(255, 193, 216);
-    border: outset;
-    border-width: 10px;
-    border-color:rgb(254, 207, 241);
-    display: flex;
+.nav-container {
     align-items: center;
-    padding: 1rem; 
-    margin: 1rem;
-    color: black;
-    text-align: center;
-    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    min-height: 50vmin;
+    background-color: rgb(120, 180, 162);
 }
 
-.Nav-Images {
-    height: 20vmin;
+.nav-image {
+    height: 25vmin;
+    width: 25vmin;
+    margin: 5vmin;
+    object-fit: contain;
+}
+
+.nav-image > a:hover {
+    border-color: white;
 }
