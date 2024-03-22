@@ -4,6 +4,7 @@ import smilotic1 from '../images/smilotic1.png';
 import tinkaton1 from '../images/tinkaton1.png';
 import tyranitar1 from '../images/tyranitar1.png';
 import vikavolt1 from '../images/vikavolt1.png';
+import { NavLink } from 'react-router-dom';
 import './Teams.css';
 import React from "react";
 
@@ -12,14 +13,26 @@ return (
     <div className="App">
     <header className="App-header">
         <h1>Trainer Dawn's Team</h1>
-        <div className="Poke-container">
-        <img src={tinkaton1} className="Poke-logo" alt=""/>
-        <img src={tyranitar1} className="Poke-logo" alt=""/>
-        <img src={hitmonchan1} className="Poke-logo" alt=""/>
-        <img src={vikavolt1} className="Poke-logo" alt=""/>
-        <img src={smilotic1} className="Poke-logo" alt=""/>
-        <img src={dragapult1} className="Poke-logo" alt=""/>
-        </div>
+        <nav className="Poke-container">
+            <NavLink>
+                <img src={tinkaton1} className="Poke-logo" alt=""/>
+            </NavLink>
+            <NavLink>
+                <img src={tyranitar1} className="Poke-logo" alt=""/>
+            </NavLink>
+            <NavLink>
+                <img src={hitmonchan1} className="Poke-logo" alt=""/>
+            </NavLink>
+            <NavLink>
+                <img src={vikavolt1} className="Poke-logo" alt=""/>
+            </NavLink>
+            <NavLink>
+                <img src={smilotic1} className="Poke-logo" alt=""/>
+            </NavLink>
+            <NavLink>
+                <img src={dragapult1} className="Poke-logo" alt=""/>
+            </NavLink>
+        </nav>
         <p>
         The stories behind the bonds between trainer and pokemon!
         </p>

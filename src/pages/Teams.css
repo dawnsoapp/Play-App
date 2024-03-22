@@ -1,18 +1,6 @@
 .App {
     text-align: center;
 }
-
-.Poke-logo {
-    height: 20vmin;
-    pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-    }
-}
-
 .App-header {
     background-color: rgb(188, 238, 231);
     min-height: 100vh;
@@ -28,13 +16,9 @@
     color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+.Poke-logo {
+    height: 20vmin;
+    pointer-events: none;
 }
 
 .Poke-container {
@@ -43,4 +27,23 @@
     min-width: fit-content;
     display: flex;
     align-items: center;
+}
+
+@keyframes poke-select {
+    from {
+        top: 40px;
+    }
+    to {
+        top: -40px;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Poke-logo:hover {
+    animation: poke-select infinite 5s linear;
+    border-style:double;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 58%;
+    }
 }
