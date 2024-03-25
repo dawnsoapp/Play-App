@@ -1,0 +1,59 @@
+/* overall background css */
+.tink-app {
+    object-fit: contain;
+    background-color: rgb(255, 211, 220);
+    color: rgb(177, 20, 67);
+    display: flex;
+    flex-direction: column;
+}
+.tink-header {
+    min-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+/* First Container */
+.container-one {
+    display: flex;
+    flex-direction: row;
+}
+
+.personality-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 50%;
+    border-style: outset;
+    border-width: 12px;
+    border-color: rgb(163, 30, 52);
+    background-color: rgb(255, 218, 224);
+}
+
+.picture-box-one {
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-pic-box-one {
+    height: 300px;
+    margin-right: 70px;
+}
+
+.type-logo {
+    height: 200px;
+    width: 250px;
+    margin-left: -60px;
+    margin-right: -60px;
+    margin-top: -60px;
+    margin-bottom: -60px;
+    pointer-events: auto;
+}
