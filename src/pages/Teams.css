@@ -1,3 +1,23 @@
+@keyframes poke-select {
+    0%, 100% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(20%);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Poke-logo:hover {
+    animation: poke-select 2s infinite;
+    border-style: double;
+    border-color: rgb(238, 253, 255);
+    border-width: 10px;
+    border-radius: 70%;
+    object-fit: contain;
+    }
+}
+
 .App {
     text-align: center;
 }
@@ -17,9 +37,19 @@
 }
 
 .Poke-logo {
-    height: 20vmin;
-    pointer-events: none;
+    height: 200px;
+    pointer-events: auto;
+    margin-right: 30px;
+    margin-left: 30px;
 }
+
+/* .Poke-logo:hover {
+    animation: poke-select 2s infinite;
+    border-style: double;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 58%;
+} */
 
 .Poke-container {
     flex-direction: row;
@@ -27,23 +57,4 @@
     min-width: fit-content;
     display: flex;
     align-items: center;
-}
-
-@keyframes poke-select {
-    from {
-        top: 40px;
-    }
-    to {
-        top: -40px;
-    }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .Poke-logo:hover {
-    animation: poke-select infinite 5s linear;
-    border-style:double;
-    border-color: white;
-    border-width: 10px;
-    border-radius: 58%;
-    }
 }

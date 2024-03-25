@@ -14,7 +14,7 @@ return (
     <header className="App-header">
         <h1>Trainer Dawn's Team</h1>
         <nav className="Poke-container">
-            <NavLink>
+            <NavLink to="/Tinkaton">
                 <img src={tinkaton1} className="Poke-logo" alt=""/>
             </NavLink>
             <NavLink>
