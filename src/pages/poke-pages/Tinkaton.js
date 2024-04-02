@@ -17,13 +17,14 @@ function Tinkaton() {
                 <div className="personality-box">
                     <h2>Tinkaton Profile</h2>
                     <h3>Type</h3>
-                    <div className="text-box">
+                    <div className="type-box">
                         <img src={FairyType} className="type-logo" alt=""/>
                         <img src={SteelType} className="type-logo" alt=""/>
                     </div>
-                    <h3>Nature + Characteristics</h3>
+                    <h3>Nature & Abilities</h3>
                     <div className="text-box">
                         <p>Sassy and "Somewhat Vain"</p>
+                        <p>Own Tempo</p>
                     </div>
                 </div>
                 <div className="picture-box-one">
