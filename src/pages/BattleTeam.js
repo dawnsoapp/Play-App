@@ -17,7 +17,7 @@ return (
             <NavLink to="/Tinkaton">
                 <img src={tinkaton1} className="Poke-logo" alt=""/>
             </NavLink>
-            <NavLink>
+            <NavLink to="/Tyranitar">
                 <img src={tyranitar1} className="Poke-logo" alt=""/>
             </NavLink>
             <NavLink>
